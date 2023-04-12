@@ -1,6 +1,8 @@
 # Puerta de gato
 
-Consiste en una puerta automática para gatos. Algunos puntos importantes sobre el contenido de esta carpeta son:
+Es un diseño de una puerta automatizada para gatos que se activa mediante un pulsador. La puerta utiliza una placa Arduino como controlador principal, que se comunica con un sensor ultrasónico, un motor DC, un sensor infrarrojo y un final de carrera. Se detalla el esquema de conexión de los componentes, el código fuente del Arduino y el procedimiento de prueba de la puerta. También se incluyen diagramas del montaje y el funcionamiento. El propósito es crear una puerta que discrimine al gato de otros animales o personas. La puerta mide la distancia al objeto con el sensor ultrasónico y solo se abre si corresponde a la altura del gato. La puerta se cierra automáticamente después de un tiempo establecido, pero tiene un sistema de seguridad que evita que se cierre si hay algo debajo. La puerta se eleva con el motor DC y se detiene cuando alcanza el tope superior con el final de carrera, y se detiene en la posición inferior con el sensor infrarrojo. El gato debe ser adiestrado para pulsar el botón y accionar la puerta.
+
+Algunos puntos importantes sobre el contenido de esta carpeta son:
 - El archivo Puerta_de_Gato.ino contiene el código fuente del programa que se carga en el Arduino. El código también incluye comentarios explicativos sobre cada parte del programa.
 - El archivo Puerta_de_Gato.pdf contiene el informe escrito del proyecto, que describe el objetivo, los materiales, el diseño, el funcionamiento y los resultados del mismo. El informe también incluye imágenes, diagramas y tablas que ilustran el proyecto.
 - La carpeta contiene las fotografías que se tomaron durante el desarrollo. Las imágenes muestran el montaje de los componentes, el circuito eléctrico. 
