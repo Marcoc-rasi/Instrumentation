@@ -4,7 +4,9 @@ I did various projects, mostly circuits, and a final project, of an automatic ca
 
 #  Puerta de gato
 
-It consists of an automatic door for cats. Some important points about the content of this folder are:
+It is a design of an automated door for cats that is activated by a button. The door uses an Arduino board as the main controller, which communicates with an ultrasonic sensor, a DC motor, an infrared sensor and an end switch. The connection scheme of the components, the source code of the Arduino and the test procedure of the door are detailed. Diagrams of the assembly and operation are also included. The purpose is to create a door that discriminates the cat from other animals or people. The door measures the distance to the object with the ultrasonic sensor and only opens if it corresponds to the height of the cat. The door closes automatically after a set time, but has a safety system that prevents it from closing if there is something underneath. The door rises with the DC motor and stops when it reaches the upper stop with the end switch, and stops in the lower position with the infrared sensor. The cat must be trained to press the button and operate the door
+
+Some important points about the content of this folder are:
 - The Puerta_de_Gato.ino file contains the source code of the program that is loaded into the Arduino. The code also includes explanatory comments about each part of the program.
 - The Puerta_de_Gato.pdf file contains the written report of the project, which describes its objective, materials, design, operation and results. The report also includes images, diagrams, and tables that illustrate the project.
 - The folder contains the photographs that were taken during development. The pictures show the assembly of the components, the electrical circuit.
